@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header-section */
+.header{
+    background:url(../images/banner/banner1.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right; 
+    height: 500px;   
+}
+.header-texts{
+    width: 500px;
+    padding-left: 650px;
+    padding-top: 100px;
+}
+.header-title{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    color: rgba(21, 20, 20, 1);
+    padding-left: ; 
+}
+.header-description{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(68, 67, 67, 1);  
+}
+.btn-primary{
+    padding: 18px 35px;
+    font-weight: 600;
+    font-size: 20px;
+    background:#FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 32px;
+}
+/* my-failuers-part */
+.my-failuers{
+    display: flex;
+    gap: 90px;
+    padding-top: 150px;
+}
+.image{
+    padding-left: 120px;
+}
+.my-failuers-text{
+    margin-top: 220px;
+    padding-right: 75px;
+}
+.failuers-title{
+    text-align: left;
+    width: 320px;
+    font-weight: 500;
+    font-size: 45px;
+}
+.failuers-description{
+    color: rgba(68, 67, 67, 1);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.steps{
+    color:rgba(68, 67, 67, 1);;
+
+}
