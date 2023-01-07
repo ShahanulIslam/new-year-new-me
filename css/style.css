@@ -215,8 +215,9 @@
 .footer-right input{
     background: #000;
     border: 2px solid white;
-    padding: 15px 15px 25px 0px ;
-    border-radius: 10px; 
+    padding: 15px 10px;
+    border-radius: 5px; 
+
 }
 .credit-section{
     font-size: 25px;
