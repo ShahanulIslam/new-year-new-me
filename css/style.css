@@ -20,11 +20,15 @@
 }
 .nav ul li{
     list-style: none;
-    padding: 0px 20px ;
+    padding: 0px 20px ; 
  }
 .nav ul li a{   
     text-decoration: none; 
     color:black;
+}
+.nav ul li a:hover{
+    color:#FD6E0A;
+    transition: all linear 0.4s;
 }
 /* banner-section */
 #banner{
@@ -46,7 +50,6 @@
     font-weight: 700;
     padding-bottom: 24px;
     color: rgba(21, 20, 20, 1);
-    padding-left: ; 
 }
 .banner-description{
     font-size: 15px;
@@ -63,6 +66,12 @@
     border-radius: 5px;
     margin-top: 32px;
 }
+.btn-primary:hover{
+    color:white;
+    transition: all linear 0.5s;
+    background: gray;
+}
+
 /* my-failuers-part */
 #my-failuers{
     display: flex;
@@ -139,6 +148,11 @@
     border-radius: 5px;
     margin-top: 32px;
     color:#F15B22
+}
+.btn:hover{
+    color:white;
+    transition: all linear 0.5s;
+    background: gray;
 }
 /* footer-part */
 #footer{
