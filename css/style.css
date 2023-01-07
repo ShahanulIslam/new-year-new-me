@@ -130,6 +130,7 @@
     width: 80%;
     margin: 0 auto;
     text-align: left;
+    margin-bottom: 100px;
 }
 .mind-set-text{
     margin-left:40px;
@@ -154,13 +155,41 @@
     transition: all linear 0.5s;
     background: gray;
 }
+/* future-part */
+.future{
+    padding-top: 80px;
+    padding-left: 400px;
+    padding-bottom:100px;
+    background: rgba(207, 204, 207, 0.727); 
+}
+.future-title{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: left;
+    margin-right: 100px;
+}
+.step{
+    text-align: left;
+    margin: 0 auto;
+    color:rgba(115, 114, 114, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+.step i{
+    color: green;
+}
+.red-icon i{
+    color: red;
+}
 /* footer-part */
 #footer{
     display: flex;
     background: black;
     color: white;
-    padding: 100px 200px;
-    margin-top: 120px;
+    padding: 80px 150px;
+    margin-top: 80px;
 }
 .footer-left{
     padding-right: 80px;
